@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>__STDC_LIMIT_MACROS, RT_USING_ARMLIBC, STM32H750xx, RT_USING_LIBC, __CLK_TCK=RT_TICK_PER_SECOND, __RTTHREAD__, USE_HAL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\components\libc\posix\io\epoll;packages\EasyLogger-v2.0.0\plugins\flash;..\..\..\components\libc\compilers\common\extension\fcntl\octal;..\..\..\components\drivers\include;..\..\..\components\drivers\spi\sfud\inc;..\..\..\components\fal\inc;.;..\..\..\components\libc\posix\io\eventfd;packages\EasyLogger-v2.0.0\inc;..\..\..\components\drivers\include;..\..\..\components\finsh;packages\EasyFlash-v4.1.0\inc;..\..\..\components\drivers\include;board\CubeMX_Config\Core\Inc;..\..\..\components\libc\posix\io\stdio;..\..\..\components\dfs\dfs_v1\filesystems\devfs;..\..\..\libcpu\arm\cortex-m7;..\libraries\STM32H7xx_HAL\STM32H7xx_HAL_Driver\Inc;applications;..\..\..\components\drivers\spi;..\..\..\components\libc\compilers\common\include;..\..\..\components\libc\posix\ipc;..\..\..\components\libc\compilers\common\extension;..\..\..\components\drivers\include;..\..\..\components\drivers\include;..\libraries\HAL_Drivers;..\libraries\HAL_Drivers\CMSIS\Include;..\..\..\libcpu\arm\common;..\..\..\include;..\libraries\STM32H7xx_HAL\CMSIS\Device\ST\STM32H7xx\Include;..\..\..\components\dfs\dfs_v1\include;..\..\..\components\drivers\include;..\libraries\HAL_Drivers\config;board\port;board;..\..\..\components\libc\posix\io\poll</IncludePath>
+              <IncludePath>..\..\..\components\libc\posix\io\epoll;packages\EasyLogger-v2.0.0\plugins\flash;..\..\..\components\libc\compilers\common\extension\fcntl\octal;..\..\..\components\drivers\include;..\..\..\components\drivers\spi\sfud\inc;..\..\..\components\fal\inc;.;..\..\..\components\libc\posix\io\eventfd;packages\EasyLogger-v2.0.0\inc;..\..\..\components\drivers\include;..\..\..\components\finsh;packages\EasyFlash-v4.1.0\inc;..\..\..\components\drivers\include;board\CubeMX_Config\Core\Inc;..\..\..\components\libc\posix\io\stdio;..\..\..\components\dfs\dfs_v1\filesystems\devfs;..\..\..\libcpu\arm\cortex-m7;..\libraries\STM32H7xx_HAL\STM32H7xx_HAL_Driver\Inc;applications;..\..\..\components\drivers\spi;..\..\..\components\libc\compilers\common\include;..\..\..\components\libc\posix\ipc;..\..\..\components\libc\compilers\common\extension;..\..\..\components\drivers\include;..\..\..\components\drivers\include;..\libraries\HAL_Drivers;..\libraries\HAL_Drivers\CMSIS\Include;..\..\..\libcpu\arm\common;..\..\..\include;..\libraries\STM32H7xx_HAL\CMSIS\Device\ST\STM32H7xx\Include;..\..\..\components\dfs\dfs_v1\include;..\..\..\components\drivers\include;..\libraries\HAL_Drivers\config;board\port;board;..\..\..\components\libc\posix\io\poll;.\applications</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -388,6 +388,11 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>applications\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_rt_thread.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\applications\app_rt_thread.c</FilePath>
             </File>
           </Files>
         </Group>
